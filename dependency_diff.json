@@ -1,0 +1,11 @@
+{
+  "dependencies": [
+    {"name": "numpy", "before": "1.16.4", "after": "1.26.3", "notes": "1.16 unsupported in modern Python; 1.26.3 supports 3.10+, performance/stability improvements"},
+    {"name": "pandas", "before": "0.24.2", "after": "2.3.3", "notes": "Major release gap—API changes exist; ensure code adapts to pandas v2 behaviors"},
+    {"name": "scipy", "before": "1.2.1", "after": "1.14.0", "notes": "1.2 lacks compatibility; 1.14 supports 3.10+ and modern NumPy"},
+    {"name": "requests", "before": "2.20.0", "after": "2.32.5", "notes": "Multiple CVE/security fixes and TLS/cipher handling; upgrade recommended"},
+    {"name": "PyYAML", "before": "3.13", "after": "6.0.3", "notes": "Fixed unsafe loader behavior and security issues; use yaml.safe_load"},
+    {"name": "matplotlib", "before": "2.2.3", "after": "3.10.7", "notes": "Modern backends and API; requires NumPy >=1.23"},
+    {"name": "Pillow", "before": "5.4.1", "after": "12.0.0", "notes": "Security fixes, modern Python support; may need to check plugin/backends"}
+  ]
+}
