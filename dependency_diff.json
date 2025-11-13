@@ -1,0 +1,9 @@
+{
+  "numpy": {"original": "1.16.4", "updated": "2.3.4", "notes": "Upgrade to latest 2.x; check for downstream packages that require numpy <1.24 on Windows (e.g. azureml)."},
+  "pandas": {"original": "0.24.2", "updated": "2.3.3", "notes": "API changes between 0.x and 2.x — run tests for deprecation/migration issues."},
+  "scipy": {"original": "1.2.1", "updated": "1.16.3", "notes": "Backwards compatible improvements and performance changes."},
+  "requests": {"original": "2.20.0", "updated": "2.32.5", "notes": "Security fixes and TLS/packaging updates."},
+  "PyYAML": {"original": "3.13", "updated": "6.0.3", "notes": "PyYAML 3.x is insecure when using yaml.load — migrate to yaml.safe_load."},
+  "matplotlib": {"original": "2.2.3", "updated": "3.10.7", "notes": "Use new 3.x API and Agg backend for headless plotting."},
+  "Pillow": {"original": "5.4.1", "updated": "12.0.0", "notes": "Significant fixes and improvements since 5.x."}
+}
