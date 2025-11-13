@@ -1,0 +1,19 @@
+Python: 3.11.13 (/usr/bin/python)
+Imported numpy: version 1.26.4
+Imported pandas: version 2.1.4
+Imported scipy: version 1.11.3
+Imported requests: version 2.32.0
+Imported yaml: version 6.0
+Imported matplotlib: version 3.8.1
+Imported PIL: version 12.0.0
+
+Functional checks:
+numpy test: sum(arr)= 45
+pandas test: df.mean() -> {'x': 2.0}
+scipy test: det(mat)= -2.0
+requests test: status_code= 200
+yaml test: safe_load -> {'a': 1}
+matplotlib test: saved demo_plot.png
+Pillow test: saved demo_image.png
+
+Demo finished
