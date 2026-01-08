@@ -1,0 +1,50 @@
+# 🧪 Today's Test: Python Dependency Upgrade — Obsolete Library Audit & Version Diff
+
+## 🧰 Context
+
+You are maintaining a **Python project** that uses general-purpose libraries.  
+The `requirements.txt` contains **outdated, potentially insecure, or deprecated libraries**.  
+Your goal is to **audit, safely upgrade dependencies, and produce a version diff report**.
+
+---
+
+## 🎯 Tasks
+
+1. **Audit dependencies**  
+   - Review the provided `requirements.txt` and identify:  
+     - Obsolete or deprecated libraries  
+     - Vulnerable or insecure versions  
+     - Libraries incompatible with Python 3.10+
+
+2. **Upgrade safely**  
+   - Suggest and apply safe upgrades  
+   - Update `requirements.txt` with the new versions
+
+3. **Generate version diff report**  
+   - Produce a **Before → After comparison** showing:  
+     - Library name  
+     - Original version  
+     - Updated version  
+     - Notes on obsolescence or security fixes
+
+4. **Verify environment reproducibility**  
+   - Include setup scripts (`setup.sh`) to install dependencies  
+   - Include minimal Python demo code (`demo.py`) to verify that upgraded libraries can be imported and function correctly  
+   - Include `run_tests.sh` to automate execution of demo code
+
+✅ Requirements
+
+- Generate missing test data if necessary  
+- Automate dependency installation and test execution  
+- Produce dependency version diff (`dependency_diff.md` or `.json`)  
+- Ensure upgraded environment works correctly with demo code
+
+📊 Expected Output
+
+- Updated `requirements.txt` with safe versions  
+- Dependency version diff report (`dependency_diff.md` or `.json`)  
+- Minimal Python demo code verifying library functionality  
+- `setup.sh` + `run_tests.sh` scripts  
+- Logs confirming successful test execution
+
+---
